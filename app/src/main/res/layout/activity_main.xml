@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Crazy converter"
+        android:textSize="30dp"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/colorBlack"/>
+
+    <EditText
+        android:id="@+id/inputField"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="Input number (cm)"
+        android:layout_marginTop="90dp"
+        android:layout_marginLeft="65dp"/>
+
+    <TextView
+        android:layout_width="370dp"
+        android:layout_height="200dp"
+        android:background="@color/colorGreen"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="250dp"/>
+
+    <TextView
+        android:id="@+id/kilometre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kilometre"
+        android:layout_marginTop="280dp"
+        android:layout_marginLeft="30dp"
+        android:textSize="20dp"
+        android:textColor="@color/colorBlack"/>
+
+    <TextView
+        android:id="@+id/centimetre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Centimetre"
+        android:layout_marginTop="310dp"
+        android:layout_marginLeft="30dp"
+        android:textSize="20dp"
+        android:textColor="@color/colorBlack"/>
+
+    <TextView
+        android:id="@+id/mile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mile"
+        android:layout_marginTop="340dp"
+        android:layout_marginLeft="30dp"
+        android:textSize="20dp"
+        android:textColor="@color/colorBlack"/>
+
+    <TextView
+        android:id="@+id/yard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Yard"
+        android:layout_marginTop="370dp"
+        android:layout_marginLeft="30dp"
+        android:textSize="20dp"
+        android:textColor="@color/colorBlack"/>
+
+    <TextView
+        android:id="@+id/foot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Foot"
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="30dp"
+        android:textSize="20dp"
+        android:textColor="@color/colorBlack"/>
+
+    <TextView
+        android:id="@+id/kilometre1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="280dp"
+        android:layout_marginLeft="260dp"
+        android:text="00.00"
+        android:textColor="@color/colorBlack"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/centimetre1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="310dp"
+        android:layout_marginLeft="260dp"
+        android:text="00.00"
+        android:textColor="@color/colorBlack"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/mile1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="340dp"
+        android:layout_marginLeft="260dp"
+        android:text="00.00"
+        android:textColor="@color/colorBlack"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/yard1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="370dp"
+        android:layout_marginLeft="260dp"
+        android:text="00.00"
+        android:textColor="@color/colorBlack"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/foot1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="260dp"
+        android:text="00.00"
+        android:textColor="@color/colorBlack"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Edvinas Alminas"
+        android:textColor="@color/colorBlack"
+        android:layout_marginTop="460dp"
+        android:layout_marginLeft="120dp"
+        android:textSize="20dp"/>
+
+    <Button
+        android:id="@+id/buttonConvert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="170dp"
+        android:layout_marginLeft="50dp"
+        android:paddingHorizontal="20dp"
+        android:paddingVertical="20dp"
+        android:text="convert"
+        android:background="@color/colorPrimary" />
+
+    <Button
+        android:id="@+id/buttonReset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="170dp"
+        android:layout_marginLeft="240dp"
+        android:paddingHorizontal="30dp"
+        android:paddingVertical="20dp"
+        android:text="Reset"
+        android:background="@color/colorOrange" />
+
+</RelativeLayout>
